@@ -3,7 +3,7 @@ using Xunit;
 
 namespace RLE.CSharp.Tests
 {
-    public class Basics
+    public class EncoderTests
     {
         [Fact]
         public void Can_encode_single_letter() => 
