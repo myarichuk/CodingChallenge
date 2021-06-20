@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RLE.CSharp", "RLE.CSharp\RLE.CSharp.csproj", "{12635891-1FB3-45C5-8489-4077D0A7795C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RLE.CSharp.Tests", "RLE.CSharp.Tests\RLE.CSharp.Tests.csproj", "{5A600C46-75E2-4AB3-BE84-1BFDAF5E5F27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{12635891-1FB3-45C5-8489-4077D0A7795C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12635891-1FB3-45C5-8489-4077D0A7795C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12635891-1FB3-45C5-8489-4077D0A7795C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A600C46-75E2-4AB3-BE84-1BFDAF5E5F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A600C46-75E2-4AB3-BE84-1BFDAF5E5F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A600C46-75E2-4AB3-BE84-1BFDAF5E5F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A600C46-75E2-4AB3-BE84-1BFDAF5E5F27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
