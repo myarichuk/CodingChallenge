@@ -5,7 +5,7 @@ namespace RLE.CSharp
 {
     public class Decoder
     {
- /// <summary>
+        /// <summary>
         /// Runtime-Length encoding is an algorithm to compress data
         /// by eliminating repetitions. 
         /// It was used in old image formats sometimes, before JPG was invented.

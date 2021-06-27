@@ -1,9 +1,18 @@
-﻿using Xunit;
+﻿using System;
+using Xunit;
 
 namespace RLE.CSharp.Tests
 {
     public class DecoderTests
     {
+        [Fact]
+        public void Will_throw_if_input_not_alphanumeric() =>
+            Assert.Throws<ArgumentException>(() => Decoder.Process("!"));
+
+        [Fact]
+        public void Will_throw_if_input_contains_non_alphanumeric() =>
+            Assert.Throws<ArgumentException>(() => Decoder.Process("1a1b!"));
+
         [Fact]
         public void Can_decode_single_tuple() => 
             Assert.Equal("a", Decoder.Process("1a"));
